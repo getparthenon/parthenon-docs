@@ -7,7 +7,8 @@ sidebar_label: "Overview"
 Parthenon comes with various tools to help your monitor the health of your application.
 
 ## Health Check endpoint
-The healthcheck is an endpoint that provides the ability for services to check the health of a server. The uses can be for an uptime monitoring service or a cloud service to ensure a node is still health and available for traffic.
+
+The health check is an endpoint that provides the ability for services to check the health of a server. The uses can be for an uptime monitoring service or a cloud service to ensure a node is still health and available for traffic.
 
 Some of of the things that companies may want to have checked for their health:
 
