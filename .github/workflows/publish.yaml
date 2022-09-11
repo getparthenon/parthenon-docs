@@ -41,7 +41,7 @@ jobs:
         run: echo $BRANCH
 
       - name: Clone bootstrap
-        run: git clone git@github.com:getparthenon/parthenon.com.git ../parthenon.com
+        run: git clone git@github.com:getparthenon/getparthenon.com.git ../getparthenon.com
 
       - name: Checkout branch
         run: |
