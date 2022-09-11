@@ -5,6 +5,7 @@ cp -R version_docs ../getparthenon.com
 
 cd ../getparthenon.com
 
+git add -A
 if [ -z "$(git status --porcelain)" ]; then
   echo "No changes found"
 else
