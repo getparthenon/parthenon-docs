@@ -40,9 +40,6 @@ jobs:
       - name: Test
         run: echo $BRANCH
 
-      - name: Clone bootstrap
-        run: git clone git@github.com:getparthenon/getparthenon.com.git ../getparthenon.com
-
       - name: Checkout branch
         run: |
           cd $LOCATION
