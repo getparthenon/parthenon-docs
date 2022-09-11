@@ -1,0 +1,49 @@
+name: Publish
+
+on:
+  push:
+
+
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set commit env
+        run: echo "LOCATION=$(pwd)" >> $GITHUB_ENV
+
+      - name: Set commit env
+        run: echo "COMMIT_MESSAGE=$(git log --format=%B -n 1 $GITHUB_SHA)" >> $GITHUB_ENV
+
+      - name: Set branch env
+        run: echo "BRANCH=$(echo $GITHUB_REF | rev | cut -d\/ -f1 | rev)" >> $GITHUB_ENV
+
+      - name: Set committer email
+        run: echo "COMITTER_EMAIL=$(git show -s --format='%ae' -n 1 $GITHUB_SHA)" >> $GITHUB_ENV
+
+      - name: Set committer name
+        run: echo "COMITTER_NAME=$(git show -s --format='%an'  -n 1 $GITHUB_SHA)" >> $GITHUB_ENV
+
+      - name: Setup git
+        run: |
+          git config --global user.name "$COMITTER_NAME"
+          git config --global user.email "$COMITTER_EMAIL"
+
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.BUILDBOT_PRIVATE_SSH_KEY }}
+          known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
+      - name: Test
+        run: echo $BRANCH
+
+      - name: Clone bootstrap
+        run: git clone git@github.com:getparthenon/parthenon.com.git ../parthenon.com
+
+      - name: Checkout branch
+        run: |
+          cd $LOCATION
+          sh publish.sh
