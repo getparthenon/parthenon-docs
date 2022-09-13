@@ -10,8 +10,8 @@ To get started using Parthenon you have two options to get started with Partheno
 
 You can download the source code from GitHub.
 
-Parthenon Bundle: https://github.com/getparthenon/parthenon
-Parthenon Skeleton App: https://github.com/getparthenon/skeleton
+* Parthenon Bundle: https://github.com/getparthenon/parthenon
+* Parthenon Skeleton App: https://github.com/getparthenon/skeleton
 
 ## Using the Skeleton App
 
