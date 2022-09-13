@@ -6,6 +6,12 @@ sidebar_position: 20
 ---
 Here you'll be able to see the updates to Parthenon. This page started to be maintained on 21.04.2022.
 
+# v2.0 - DD-MM-2022
+
+* [Skeleton] New layout for public pages
+* [Skeleton] New layout for the internal Application
+* [User] Ensure that currently registered members can't be invited
+
 # v1.2.5 - 22.08.2022
 
 * [User] Add logging to Signup and TeamInvite request processors
