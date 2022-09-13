@@ -8,6 +8,8 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 
 # v2.0 - DD-MM-2022
 
+* [Common] Add dependency check for mpdf when configured to use mpdf
+* [Common] Add dependency check for docraptor when configured to use docraptor
 * [Skeleton] New layout for public pages
 * [Skeleton] New layout for the internal Application
 * [RuleEngine] Removed until can be better implemented
