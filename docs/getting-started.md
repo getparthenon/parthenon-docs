@@ -6,6 +6,12 @@ sidebar_position: 2
 ---
 To get started using Parthenon you have two options to get started with Parthenon. Start with the skeleton Application that provides you with a Symfony application, docker, behat tests, and a Vue UI. Or you can add Parthenon to a pre-existing application.
 
+## Download from GitHub
+
+You can download the source code from GitHub.
+
+Parthenon Bundle: https://github.com/getparthenon/parthenon
+Parthenon Skeleton App: https://github.com/getparthenon/skeleton
 
 ## Using the Skeleton App
 
