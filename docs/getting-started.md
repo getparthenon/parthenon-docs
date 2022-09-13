@@ -6,26 +6,14 @@ sidebar_position: 2
 ---
 To get started using Parthenon you have two options to get started with Parthenon. Start with the skeleton Application that provides you with a Symfony application, docker, behat tests, and a Vue UI. Or you can add Parthenon to a pre-existing application.
 
-## Set up composer
-
-No matter what way you're going to start using Parthenon you need configure composer to authenticate with our private packagist.
-
-You'll need to token and repository URL for the private packagist instance. You can get this from the [Parthenon Customer Portal](https://customers.parthenon.cloud).
-
-Once you have these credentials then you need to run the following commands.
-
-```
-composer config --global repositories.private-packagist composer [YOUR_URL_HERE]
-composer config --global --auth http-basic.packagist.parthenon.cloud token [YOUR_TOKEN_HERE]
-```
 
 ## Using the Skeleton App
 
-Once you have configured composer to use the private packagist to create a skeleton Parthenon app you need to use the `composer create-project` command.
+To create a skeleton Parthenon app you need to use the `composer create-project` command.
 
-If you're using the bootstrap edition: `composer create-project parthenon/bootstrap-skeleton --repository=[YOUR_URL_HERE]`
-
-If you're using the funded edition: `composer create-project parthenon/skeleton --repository=[YOUR_URL_HERE]`
+```
+composer create-project parthenon/skeleton
+```
 
 This will create a folder with a symfony application that is preconfiged to use Parthenon and includes the basic functionality to get you up and running.
 
@@ -55,6 +43,6 @@ bin/console doctrine:migrations:migrate
 
 Once you have configured composer to use the private packagist to add to a pre-existing application you need to use the `composer require` command.
 
-If you're using the bootstrap edition: `composer require parthenon/bootstrap`
-
-If you're using the funded edition: `composer require parthenon/parthenon`
+```
+composer require parthenon/parthenon
+```
