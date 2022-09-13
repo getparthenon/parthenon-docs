@@ -10,7 +10,13 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 
 * [Skeleton] New layout for public pages
 * [Skeleton] New layout for the internal Application
+* [RuleEngine] Removed until can be better implemented
+* [Payments] Removed unused parameter
+* [Payments] Fix exception flung when trying to cancel a subscription that doesn't exist.
+* [Payments] If no cancel route is provided use success route.
 * [User] Ensure that currently registered members can't be invited
+* [User] Add id to the user formatter
+
 
 # v1.2.5 - 22.08.2022
 
