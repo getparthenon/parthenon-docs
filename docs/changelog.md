@@ -8,6 +8,10 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 
 # v2.0 - DD-MM-2022
 
+* [Athena] Remove dead code in OdmCrudRepository
+* [Athena] Use alias in EntityForm for EditField
+* [Common] Use alias for Guzzle\ClientInterface in GuzzleFactory
+* [Common] Remove nullable on logger in LoggerAwareTrait
 * [Common] Add dependency check for mpdf when configured to use mpdf
 * [Common] Add dependency check for docraptor when configured to use docraptor
 * [Skeleton] New layout for public pages
@@ -18,6 +22,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Payments] If no cancel route is provided use success route.
 * [User] Ensure that currently registered members can't be invited
 * [User] Add id to the user formatter
+* [User] Change user profile to user settings
 
 
 # v1.2.5 - 22.08.2022
