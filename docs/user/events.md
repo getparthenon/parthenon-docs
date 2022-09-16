@@ -21,12 +21,12 @@ One of the easiest ways to extend the user system is to hook into the events. He
 | Before the password is changed when the user is logged in. | `Parthenon\User\Event\PostPasswordChangeEvent::NAME` | `getUser` |
 | After the password is changed when the user is logged in. | `Parthenon\User\Event\PrePasswordChangeEvent::NAME` | `getUser` |
 
-## Profile
+## Settings
 
 | When | Events | Methods |
 | --- | --- | --- |
-| Before the user profile is changed when the user is logged in. | `Parthenon\User\Event\PreProfileEvent::NAME` | `getUser` |
-| After the user profile is changed when the user is logged in. | `Parthenon\User\Event\PostProfileEvent::NAME` | `getUser` |
+| Before the user profile is changed when the user is logged in. | `Parthenon\User\Event\PreSettingsEvent::NAME` | `getUser` |
+| After the user profile is changed when the user is logged in. | `Parthenon\User\Event\PostSettingsEvent::NAME` | `getUser` |
 
 ## User Confirm
 

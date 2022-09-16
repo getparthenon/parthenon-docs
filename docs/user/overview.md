@@ -75,13 +75,13 @@ This is customisable via:
 
 * [User Events](events.md#password-change)
 
-### Profile
+### Settings
 
-This is when the user updates their user profile
+This is when the user updates their user settings
 
 This is customisable via:
 
-* [User Events](events.md#profile)
+* [User Events](events.md#settings)
 
 ## Athena
 
