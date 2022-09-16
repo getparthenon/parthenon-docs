@@ -26,6 +26,7 @@ Often throughout your application you'll want to display a message while somethi
 
 ## LoadingScreen
 
+Often you'll want to wait until you've fetched the data from the server before displaying the page, this component provides a fast and quick way to insert a loading screen while you wait for the data to be returned.
 
 ### Props
 
@@ -37,7 +38,7 @@ Often throughout your application you'll want to display a message while somethi
 ### Example
 
 ```jsx
-<LoadingScreen :ready="loading">
+<LoadingScreen :ready="loaded">
   <template v-slot:content>
     <p>Content</p>
   </template>
