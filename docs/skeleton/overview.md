@@ -33,7 +33,7 @@ If you wish to be able to run the symfony console command locally instead of wit
 
 ### Docker
 
-The skeleton application comes with a `docker-compose.yaml` that will create a functional development enviornment.
+The skeleton application comes with a `docker-compose.yaml` that will create a functional development environment.
 
 For the PHP-FPM container it uses by default the Parthenon PHP 8.1 container that comes with the required modules installed. This docker container is rebuild nightly to ensure it gets the latest security updates. You can check out the builds at https://github.com/getparthenon/packer-config.
 
