@@ -12,9 +12,9 @@ Parthenon comes with an array of Frontend libraries to help speed up the develop
 Parthenon is built on some of the best technologies available.
 
 * VueJs 3
-* Vuex 3
+* Vuex 4
 * TailwindCss
-* Jest
+* Vitest
 * Axios
 * Font Awesome
 
