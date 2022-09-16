@@ -6,6 +6,8 @@ sidebar_label: "Overview"
 ---
 Parthenon comes with a Skeleton application. Currently it comes in two flavours based on which database you want to use Postgres or MongoDB. Other than the database these skeleton applications are the same, the come with the same functionality and tooling.
 
+You can find this at https://github.com/getparthenon/skeleton.
+
 ## Create  
 
 To create a new project you just need to use the `composer create-project` command.
