@@ -34,6 +34,7 @@ Often you'll want to wait until you've fetched the data from the server before d
 | --- | --- | --- | --- |
 | ready | boolean | n/a | If the page is loaded or not |
 | loadingSpinnerColor | string | `black` | The colour of the spinner |
+| loadingClass | string | `loading-message` | The class assigned to the div that contains the loading message |
 
 ### Example
 
