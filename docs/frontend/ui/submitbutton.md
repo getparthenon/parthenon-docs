@@ -3,7 +3,7 @@ title: "Frontend - UI - SubmitButton"
 sidebar_label: "SubmitButton"
 date: 2020-09-04T17:30:32+02:00
 draft: false
-sidebar_position: 1
+sidebar_position: 3
 ---
 Creating a submit button that changes while the form is being submitted creates an easy to understand user interface that the form is being processed and prevents double clicks.
 
