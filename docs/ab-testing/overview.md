@@ -4,11 +4,6 @@ date: 2020-08-25T18:51:52+02:00
 draft: false
 sidebar_label: "Overview"
 ---
-:::caution
-
-This is a Professional Edition feature.
-
-:::
 A/B Testing is one of the core things companies need to do to truly understand if
 their changes actually improve the the KPIs they want to improve.
 

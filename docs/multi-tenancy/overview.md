@@ -6,11 +6,6 @@ sidebar_label: "Overview"
 ---
 The Multi-Tenancy feature provides support for a multi-tenancy system where each tenant has their own database.
 
-:::caution
-
-This is a Professional Edition feature.
-
-:::
 
 :::note
 
@@ -36,11 +31,11 @@ There are some configurations for the user module of Parthenon. These can be con
 
 ## Doctrine Dbal/ORM Configuration
 
-The DBAL configuration for the tenant connection needs to have the username, password, host, and port provided. 
+The DBAL configuration for the tenant connection needs to have the username, password, host, and port provided.
 
 The `wrapper_class` option must have the value `Parthenon\MultiTenancy\Dbal\TenantConnection`
 
-There must also be a default database given. 
+There must also be a default database given.
 
 There should be two entity managers one for the global connection, that is information that is needed for all tenants. Namely, the tenant database of what tenants exist. It is a good idea to use two different namespaces for the entities.
 
@@ -58,7 +53,7 @@ doctrine:
                 password: '%env(resolve:TENANT_DATABASE_PASSWORD)%'
                 host: '%env(resolve:TENANT_DATABASE_HOST)%'
                 port: '%env(resolve:TENANT_DATABASE_PORT)%'
-                dbname: '%parthenon_multi_tenancy_default_database%' 
+                dbname: '%parthenon_multi_tenancy_default_database%'
                 wrapper_class: Parthenon\MultiTenancy\Dbal\TenantConnection
                 driver: pdo_pgsql
     orm:
@@ -105,4 +100,3 @@ When a new tenant database is created it'll have all the current migrations mark
 ### To Generate
 
 Currently, the suggested way of generating a diff is ` bin/console d:m:diff --em={$doctrine.orm_entity_manager]`. The em value should be the same value in `doctrine.orm_entity_manager`.
-
