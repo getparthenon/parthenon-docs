@@ -26,6 +26,7 @@ The limits is defined by the name of the limit and the and limit as a number and
 | is_per_seat | Boolean | If the plan is charged as a per seat |
 | features | array | The name of features for a plan. |
 | limit | array | The limits for the plan. |
+| user_count | integer | The number of users that plan has if is_per_seat is false |
 
 ```yaml
 parthenon:
@@ -33,22 +34,24 @@ parthenon:
     enabled: true
     plan:
       basic:
-        is_free: false # Default false3
+        user_count: 1
+        is_free: false # Default false
         is_per_seat: false # Default false
         features:
           - feature_one
         limit:
-          team_invite:
+          limit_name:
             limit: 1
-            description: "Number of users"
+            description: "Description of limit"
       standard:
+        user_count: 5
         features:
           - feature_one
           - feature_two
         limit:
-          team_invite:
+          limit_name:
             limit: 5
-            description: "Number of users"
+            description: "Description of limit"
 ```
 
 ## Counter
