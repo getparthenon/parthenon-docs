@@ -20,12 +20,21 @@ The plans are defined with the name of the plan and then it has the field limit 
 
 The limits is defined by the name of the limit and the and limit as a number and the description.
 
+| Name | Type | Description |
+| --- | --- | --- |
+| is_free | Boolean | If the plan is a free plan. |
+| is_per_seat | Boolean | If the plan is charged as a per seat |
+| features | array | The name of features for a plan. |
+| limit | array | The limits for the plan. |
+
 ```yaml
 parthenon:
   subscriptions:
     enabled: true
     plan:
       basic:
+        is_free: false # Default false3
+        is_per_seat: false # Default false
         features:
           - feature_one
         limit:
