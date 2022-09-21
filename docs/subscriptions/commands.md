@@ -6,7 +6,7 @@ draft: false
 ---
 The subscriptions module comes with the follow commands.
 
-## parthenon:payments:sync-subscriptions
+## parthenon:subscriptions:sync-subscriptions
 
 This syncs the subscription status with the subscription status with the payment provider.
 
