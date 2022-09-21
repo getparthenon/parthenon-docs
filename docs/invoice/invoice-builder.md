@@ -53,7 +53,7 @@ This accepts an instance of `Parthenon\Common\Address`
 
 ### setCountryRules
 
-This accepts an instance of `Parthenon\Invoice\CountryRules`
+This accepts an instance of `Parthenon\Invoice\CountryRules` see [Multi-Country VAT](./multi-country-vat)
 
 ### setCurrency
 
