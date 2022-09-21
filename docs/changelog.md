@@ -24,6 +24,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [User] Add id to the user formatter
 * [User] Change user profile to user settings
 * [Subscription] Add per seat subscriptions
+* [Subscription] Rename sync subscription command
 
 # v1.2.5 - 22.08.2022
 
