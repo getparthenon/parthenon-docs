@@ -14,7 +14,7 @@ To keep track of the subscription status, Parthenon will poll the payment provid
 
 The point of the subscription status command is to be able to move a subscription from one state to another. To allow for this we've created interfaces that can be implemented that will automatically be detected by Parthenon and triggered when there is a transition.
 
-### To active
+### To Active
 
 This is going from any state to an active state.
 
