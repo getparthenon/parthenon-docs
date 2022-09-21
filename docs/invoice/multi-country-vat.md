@@ -1,6 +1,6 @@
 ---
 title: "Invoice - Multi-Country VAT"
-label: "Multi-Country VAT"
+sidebar_label: "Multi-Country VAT"
 date: 2020-09-04T17:30:32+02:00
 draft: false
 ---
