@@ -1,5 +1,6 @@
 ---
-title: "Commands"
+title: "User - Commands"
+label: "Commands"
 date: 2020-08-27T20:33:06+02:00
 draft: false
 ---
