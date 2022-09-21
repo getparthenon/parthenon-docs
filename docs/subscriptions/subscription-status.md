@@ -10,7 +10,7 @@ Keeping track of the subscription status is important. You want to be able to de
 
 To keep track of the subscription status, Parthenon will poll the payment provider to see what the status of the payment is. While payment providers such as Stripe provide webhooks where they can send updates, when operating at scale these webhooks provide a point of failure. It's often experienced at larger scales that webhook requests fail. Thus we took the decision to fetch the data this way we're able to get the latest data and be aware that this is the latest data.
 
-## Transtations
+## Transitions
 
 The point of the subscription status command is to be able to move a subscription from one state to another. To allow for this we've created interfaces that can be implemented that will automatically be detected by Parthenon and triggered when there is a transition.
 

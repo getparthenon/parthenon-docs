@@ -16,7 +16,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Common] Add dependency check for docraptor when configured to use docraptor
 * [Skeleton] New layout for public pages
 * [Skeleton] New layout for the internal Application
-* [RuleEngine] Removed until can be better implemented
+* [RuleEngine] Removed until it can be better implemented
 * [Payments] Removed unused parameter
 * [Payments] Fix exception flung when trying to cancel a subscription that doesn't exist.
 * [Payments] If no cancel route is provided use success route.
