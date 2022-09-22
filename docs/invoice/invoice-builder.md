@@ -29,7 +29,7 @@ Options
 
 ### setInvoiceNumberGenerator
 
-Allows you to set an Invoice Number Generator that implements `Parthenon\Invoice\InvoiceNumberGeneratorInterface`.
+Allows you to set an Invoice Number Generator that implements `Parthenon\Invoice\InvoiceNumberGeneratorInterface`. See [Invoice Number Generator](./invoice-number-generator)
 
 ### setInvoiceNumber
 
