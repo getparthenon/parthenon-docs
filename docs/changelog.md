@@ -25,6 +25,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [User] Change user profile to user settings
 * [Subscription] Add per seat subscriptions
 * [Subscription] Rename sync subscription command
+* [Subscription] Attach customer id to subscription
 * [Invoice] Update naming and data types in refactor
 * [Invoice] Make VatRuleInterface:setVat return void
 * [Invoice] Add optional argument to InvoiceNumberGenerator
