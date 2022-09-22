@@ -14,21 +14,21 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Common] Remove nullable on logger in LoggerAwareTrait
 * [Common] Add dependency check for mpdf when configured to use mpdf
 * [Common] Add dependency check for docraptor when configured to use docraptor
-* [Skeleton] New layout for public pages
-* [Skeleton] New layout for the internal Application
-* [RuleEngine] Removed until it can be better implemented
-* [Payments] Removed unused parameter
-* [Payments] Fix exception flung when trying to cancel a subscription that doesn't exist.
-* [Payments] If no cancel route is provided use success route.
-* [User] Ensure that currently registered members can't be invited
-* [User] Add id to the user formatter
-* [User] Change user profile to user settings
-* [Subscription] Add per seat subscriptions
-* [Subscription] Rename sync subscription command
-* [Subscription] Attach customer id to subscription
 * [Invoice] Update naming and data types in refactor
 * [Invoice] Make VatRuleInterface:setVat return void
 * [Invoice] Add optional argument to InvoiceNumberGenerator
+* [Payments] Merge Subscriptions module
+* [Payments] Fix exception flung when trying to cancel a subscription that doesn't exist.
+* [Payments] If no cancel route is provided use success route.
+* [Payments] Add per seat subscriptions
+* [Payments] Rename sync subscription command
+* [Payments] Attach customer id to subscription
+* [RuleEngine] Removed until it can be better implemented
+* [Skeleton] New layout for public pages
+* [Skeleton] New layout for the internal Application
+* [User] Ensure that currently registered members can't be invited
+* [User] Add id to the user formatter
+* [User] Change user profile to user settings
 
 # v1.2.5 - 22.08.2022
 
