@@ -23,6 +23,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Payments] Add per seat subscriptions
 * [Payments] Rename sync subscription command
 * [Payments] Attach customer id to subscription
+* [Payments] Move stripe services into separate services.xml
 * [RuleEngine] Removed until it can be better implemented
 * [Skeleton] New layout for public pages
 * [Skeleton] New layout for the internal Application
