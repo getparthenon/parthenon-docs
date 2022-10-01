@@ -13,6 +13,8 @@ You can download the source code from GitHub.
 * Parthenon Bundle: https://github.com/getparthenon/parthenon
 * Parthenon Skeleton App: https://github.com/getparthenon/skeleton
 
+You can check out the project roadmap and project board at https://github.com/orgs/getparthenon/projects/3
+
 ## Using the Skeleton App
 
 To create a skeleton Parthenon app you need to use the `composer create-project` command.
