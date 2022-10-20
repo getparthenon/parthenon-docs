@@ -64,7 +64,7 @@ This is the base class that forms the object representing the email that should 
 | addAttachment | Attachment $attachment | self | Adds an attachement to be sent |
 | getAttachments | n/a | array | Returns the attachments to be sent with the email. |
 
-### Parthenon\User\Notification\UserMessage
+### Parthenon\User\Notification\UserEmail
 
 This is a helper class that creates an email for a user that automatically fills the name and address of the recipient of the email. It also adds the name of the user to the template variables under `name`.
 
@@ -73,6 +73,38 @@ This is a helper class that creates an email for a user that automatically fills
 | Method Name | Arguments | Return Value | Description |
 | --- | --- | --- | --- |
 | createFromUser | UserInterface $user | self | A static factory method. |
+
+### Parthenon\Notification\TemplateEmail
+
+TemplateEmail is a way of defining each email as it's own class.
+
+```php
+<?php
+
+namespace App\Email;
+
+class WelcomeEmail extends \Parthenon\Notification\TemplateEmail {
+  public public function getTemplateName() {
+    return "TEMPLATE_ID";
+  }
+}
+```
+
+### Parthenon\User\Notification\UserTemplateEmail
+
+UserTemplateEmail is a way of defining each email as it's own class.
+
+```php
+<?php
+
+namespace App\Email;
+
+class WelcomeEmail extends \Parthenon\User\Notification\UserTemplateEmail {
+  public public function getTemplateName() {
+    return "TEMPLATE_ID";
+  }
+}
+```
 
 ### Parthenon\Notification\Attachment
 
