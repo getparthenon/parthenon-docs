@@ -36,7 +36,7 @@ parthenon:
 
 How sending emails work is that you create and message object from `Parthenon\Notification\Message` that is filled with the information for the email. This includes attachments, subject, and if there is a template name/id then that as well.
 
-### Parthenon\Notification\Message
+### Parthenon\Notification\Email
 
 This is the base class that forms the object representing the email that should be sent.
 
@@ -64,7 +64,7 @@ This is the base class that forms the object representing the email that should 
 | addAttachment | Attachment $attachment | self | Adds an attachement to be sent |
 | getAttachments | n/a | array | Returns the attachments to be sent with the email. |
 
-### Parthenon\User\Notification\UserMessage
+### Parthenon\User\Notification\UserEmail
 
 This is a helper class that creates an email for a user that automatically fills the name and address of the recipient of the email. It also adds the name of the user to the template variables under `name`.
 
