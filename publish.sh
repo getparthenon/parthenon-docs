@@ -1,10 +1,10 @@
 git clone git@github.com:getparthenon/getparthenon.com.git ../getparthenon.com
 
 rm -Rf ../getparthenon.com/docs/*
-rm -Rf ../getparthenon.com/version_docs/*
+rm -Rf ../getparthenon.com/versioned_docs/*
 
 cp -R docs ../getparthenon.com
-cp -R version_docs ../getparthenon.com
+cp -R versioned_docs ../getparthenon.com
 
 cd ../getparthenon.com
 
