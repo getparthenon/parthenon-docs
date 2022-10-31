@@ -11,7 +11,7 @@ Exporting to CSV is a common task. It converts an array of associtive arrays to 
 
 
 ```php
-use Parthenon\Common\Export\CsvExporter;
+use Parthenon\Export\Exporter\CsvExporter;
 
 $csvExporter = new CsvExporter();
 $rows = [
