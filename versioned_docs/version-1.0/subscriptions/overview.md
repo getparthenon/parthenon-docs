@@ -59,7 +59,7 @@ The interface has two methods.
 declare(strict_types=1);
 
 /*
- * Copyright Humbly Arrogant Ltd 2020-2021, all rights reserved.
+ * Copyright Iain Cambridge 2020-2021, all rights reserved.
  */
 
 namespace Parthenon\Subscriptions\Plan;
@@ -82,7 +82,7 @@ Here is the example
 declare(strict_types=1);
 
 /*
- * Copyright Humbly Arrogant Ltd 2020-2021, all rights reserved.
+ * Copyright Iain Cambridge 2020-2021, all rights reserved.
  */
 
 namespace Parthenon\Subscriptions\Plan\Counter;

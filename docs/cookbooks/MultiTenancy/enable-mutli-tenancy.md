@@ -13,7 +13,7 @@ Create Tenant repository
 declare(strict_types=1);
 
 /*
- * Copyright Humbly Arrogant Ltd 2020-2022, all rights reserved.
+ * Copyright Iain Cambridge 2020-2022, all rights reserved.
  */
 
 namespace App\Repository\Orm;

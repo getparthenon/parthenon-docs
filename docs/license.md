@@ -12,9 +12,9 @@ The license is as follows
 
 Parameters
 
-Licensor:             Humbly Arrogant Limited
+Licensor:             Iain Cambridge
 Licensed Work:        Parthenon 2.0.x
-                      The Licensed Work is (c) 2022 Humbly Arrogant Limited.
+                      The Licensed Work is (c) 2022 Iain Cambridge.
 Additional Use Grant:
     You may use the Licensed Work when you generate less than $5,000 (five thousand) US Dollars a month.
 

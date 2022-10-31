@@ -24,7 +24,7 @@ With the user login system on a successful login it returns the user object. Thi
 declare(strict_types=1);
 
 /*
- * Copyright Humbly Arrogant Ltd 2020-2022, all rights reserved.
+ * Copyright Iain Cambridge 2020-2022, all rights reserved.
  */
 
 namespace Parthenon\User\Formatter;

@@ -12,7 +12,7 @@ Often there is some business logic that is used to generate the invoice number. 
 declare(strict_types=1);
 
 /*
- * Copyright Humbly Arrogant Ltd 2020-2022.
+ * Copyright Iain Cambridge 2020-2022.
  *
  * Use of this software is governed by the Business Source License included in the LICENSE file and at https://getparthenon.com/docs/next/license.
  *

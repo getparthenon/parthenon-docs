@@ -30,7 +30,7 @@ An example is our if user has confirmed their email checker.
 declare(strict_types=1);
 
 /*
- * Copyright Humbly Arrogant Ltd 2020-2021, all rights reserved.
+ * Copyright Iain Cambridge 2020-2021, all rights reserved.
  */
 
 namespace Parthenon\User\Security\UserChecker;

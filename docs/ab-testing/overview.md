@@ -80,7 +80,7 @@ To create a report handler you need to implement `Parthenon\AbTesting\Report\Ģe
 
 ```php
 /*
- * Copyright Humbly Arrogant Ltd 2020-2021, all rights reserved.
+ * Copyright Iain Cambridge 2020-2021, all rights reserved.
  */
 
 namespace Parthenon\AbTesting\Report;

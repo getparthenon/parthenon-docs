@@ -23,7 +23,7 @@ The Parthenon http client interface extends the PSR-7 `ClientInterface`. This al
 
 ```php
 /*
- * Copyright Humbly Arrogant Ltd 2020, all rights reserved.
+ * Copyright Iain Cambridge 2020, all rights reserved.
  */
 
 namespace Parthenon\Common\Http;

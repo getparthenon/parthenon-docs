@@ -14,7 +14,7 @@ Here we provide the elasticserach docs.
 declare(strict_types=1);
 
 /*
- * Copyright Humbly Arrogant Ltd 2020-2021, all rights reserved.
+ * Copyright Iain Cambridge 2020-2021, all rights reserved.
  */
 
 namespace Parthenon\Common\Elasticsearch;
