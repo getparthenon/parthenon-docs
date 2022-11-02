@@ -24,6 +24,11 @@ class EntityNormaliser implements \Parthenon\Export\NormaliserInterface {
         return $item instanceof \App\Entity\Example;
       }
 
-      public function normalise(array $input): array;
+      public function normalise(array $input): array {
+        return [
+          "name" => $input->getName(),
+          "created_at" => $input->getCreatedAt(),
+        ];
+      }
 }
 ```
