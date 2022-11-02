@@ -20,8 +20,8 @@ namespace App\Export\Normaliser;
 
 class EntityNormaliser implements \Parthenon\Export\NormaliserInterface {
 
-      public function supports(mixed $item): bool {
-        return $item instanceof \App\Entity\Example;
+      public function supports(array $items): bool {
+        return sizeof($items) > 0 && currrent($item) instanceof \App\Entity\Example;
       }
 
       public function normalise(array $input): array {
