@@ -10,3 +10,20 @@ Part of exporting data is normalising the data that is stored within the applica
 ## Creating a Normaliser
 
 To create your own normaliser you must create a class that implements the `Parthenon\Export\NormaliserInterface`.
+
+### Example
+
+```php
+<?php
+
+namespace App\Export\Normaliser;
+
+class EntityNormaliser implements \Parthenon\Export\NormaliserInterface {
+
+      public function supports(mixed $item): bool {
+        return $item instanceof \App\Entity\Example;
+      }
+
+      public function normalise(array $input): array;
+}
+```
