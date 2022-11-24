@@ -9,7 +9,7 @@ Part of exporting data is normalising the data that is stored within the applica
 
 ## Creating a Normaliser
 
-To create your own normaliser you must create a class that implements the `Parthenon\Export\NormaliserInterface`.
+To create your own normaliser you must create a class that implements the `Parthenon\Export\Normaliser\NormaliserInterface`.
 
 ### Example
 
@@ -18,16 +18,16 @@ To create your own normaliser you must create a class that implements the `Parth
 
 namespace App\Export\Normaliser;
 
-class EntityNormaliser implements \Parthenon\Export\NormaliserInterface {
+class EntityNormaliser implements \Parthenon\Export\Normaliser\NormaliserInterface {
 
-      public function supports(array $items): bool {
-        return sizeof($items) > 0 && currrent($item) instanceof \App\Entity\Example;
+      public function supports(mixed $item): bool {
+        return $item instanceof \App\Entity\Example;
       }
 
-      public function normalise(array $input): array {
+      public function normalise(mixed $item): array {
         return [
-          "name" => $input->getName(),
-          "created_at" => $input->getCreatedAt(),
+          "name" => $item->getName(),
+          "created_at" => $item->getCreatedAt(),
         ];
       }
 }
