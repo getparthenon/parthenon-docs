@@ -16,3 +16,9 @@ Originally, the idea was to use a closure that would provide the data; however i
 There were two ideas. The other was creating a `supports` method and looping through the available data providers and seeing if that `ExportRequest` was supported. This would either result in separate classes created for each export type which could become annoying and more importantly, create complex fragile `supports` methods.
 
 Instead, we define the service that is to be used to fetch the data. This allows using the same `ExportRequest` class, isolating the logic for the data retrieval, and using Symfony services correctly.
+
+## DataProviderInterface
+
+Once using closures were not going to be used for data providing. An interface was needed.
+
+The reason it returns `iterable` is to allow you to use either an array, an object implement `Traversable`, or a generator. Thus providing the maximum flexibility.
