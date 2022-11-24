@@ -17,7 +17,11 @@ There were two ideas. The other was creating a `supports` method and looping thr
 
 Instead, we define the service that is to be used to fetch the data. This allows using the same `ExportRequest` class, isolating the logic for the data retrieval, and using Symfony services correctly.
 
+:::note
+
 The downside of this approach is that the DataProvider service must be made public. This is done automatically by the compiler pass.
+
+:::
 
 ## DataProviderInterface
 
