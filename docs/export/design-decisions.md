@@ -28,3 +28,5 @@ The downside of this approach is that the DataProvider service must be made publ
 Once using closures were not going to be used for data providing. An interface was needed.
 
 The reason it returns `iterable` is to allow you to use either an array, an object implement `Traversable`, or a generator. Thus providing the maximum flexibility.
+
+### Entity Factory
