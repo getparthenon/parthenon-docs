@@ -28,3 +28,10 @@ The downside of this approach is that the DataProvider service must be made publ
 Once using closures were not going to be used for data providing. An interface was needed.
 
 The reason it returns `iterable` is to allow you to use either an array, an object implement `Traversable`, or a generator. Thus providing the maximum flexibility.
+
+## ResponseConverter
+
+
+Originally, the idea was that each response class would contain the logic to convert to a Symfony response. However, this would result in a very rigid response ouput since it would be harder to change the response.
+
+So the approach taken was to create ResponseConverter to convert ExportResponseInterface instances to Symfony responses was made to allow the ability to have very custom responses to be extremely easy. This way all people need to do is create an implementation of ResponseConverterInterface and overridden the default alias.
