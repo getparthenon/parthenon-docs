@@ -6,6 +6,15 @@ sidebar_position: 20
 ---
 Here you'll be able to see the updates to Parthenon. This page started to be maintained on 21.04.2022.
 
+# v2.1.0 - DD-MM-202Y
+
+* [AB Testing] Fix column names for updated at in Experiment
+* [Notification] Add TemplateEmail class to allow defining template name within the class
+
+# v2.0.1 - 04-10-2022
+
+* [Payments] Fix Subscriber type configuration
+
 # v2.0.0 - 01-10-2022
 
 * [Athena] Remove dead code in OdmCrudRepository
