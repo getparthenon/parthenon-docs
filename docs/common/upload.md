@@ -47,8 +47,30 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
 interface UploaderInterface
 {
     public function uploadUploadedFile(UploadedFile $file): File;
+
+    public function deleteFile(File $file): void;
+
+    /**
+     * @return resource
+     */
+    public function readFile(File $file);
 }
 ```
+
+You need to implement three methods, Upload that accepts a Symfony `UploadedFile`, a delete, and a read both of which accept the Parthenon `File` object.
+
+### uploadUploadedFile
+
+This accepts an instance of `UploadedFile` and returns an instance of `File`
+
+### deleteFile
+
+This accepts an instance of `File` and returns nothing
+
+### readFile
+
+This accepts an instance of `File` and returns a stream.
+
 
 ## Naming
 
