@@ -9,7 +9,7 @@ The common libary is common functionality that is used throughout Parthenon as w
 * [Logging](logging.md) - The logging helpers provided with Parthenon.
 * [PDF](pdf.md) - The PDF generation helper.
 * [File Uploads](upload.md) - The File upload helper
-* [Repositories](repositories.md) - Information about how databases should be interacted with.
+* [Repositories](design-decisions/repositories.md) - Information about how databases should be interacted with.
 
 {{% notice info %}}
 There are other helper traits within the Common module that are linked between the other modules.

@@ -281,7 +281,7 @@ The repository functionality is designed on the `CrudRespositoryInterface` which
 
 If you’re using Doctrine you just need to extend `DoctrineCrudRepository` which implements all the functionality required for the CRUD section.
 
-For more overall information about repository please see the [commons repository documentation](../common/repositories.md)
+For more overall information about repository please see the [commons repository documentation](../common/design-decisions/repositories.md)
 
 ## Buttons
 
