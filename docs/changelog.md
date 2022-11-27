@@ -9,6 +9,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 # v2.1.0 - DD-MM-202Y
 
 * [AB Testing] Fix column names for updated at in Experiment
+* [Common] Add readFile and deleteFile to UploaderInterface
 * [Notification] Add TemplateEmail class to allow defining template name within the class
 
 # v2.0.1 - 04-10-2022
