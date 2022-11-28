@@ -1,6 +1,7 @@
 ---
 title: "Export - Design Decisions"
 sidebar_label: "Design Decisions"
+sidebar_position: 99
 date: 2020-08-26T19:43:24+02:00
 draft: false
 ---

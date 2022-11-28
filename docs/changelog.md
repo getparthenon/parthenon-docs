@@ -2,7 +2,7 @@
 title: "Changelog"
 date: 2020-08-25T20:18:31+02:00
 draft: false
-sidebar_position: 20
+sidebar_position: 98
 ---
 Here you'll be able to see the updates to Parthenon. This page started to be maintained on 21.04.2022.
 

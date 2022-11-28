@@ -2,7 +2,7 @@
 title: "License"
 date: 2020-08-25T20:18:31+02:00
 draft: false
-sidebar_position: 21
+sidebar_position: 99
 ---
 Parthenon is released under Business Source License, which allows for free non-production use.
 
