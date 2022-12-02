@@ -8,6 +8,8 @@ In order to provide a better understanding of Parthenon, we're documenting the d
 
 This process was started quite late so currently lots of areas' design decisions are not documented.
 
+* [Athena](./athena/design-decisions.md)
 * [Common](./common/design-decisions/general.md)
 * [Common Repository](./common/design-decisions/repositories.md)
 * [Export](./export/design-decisions.md)
+* [User](./user/design-decisions.md)

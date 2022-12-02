@@ -98,6 +98,8 @@ Flysystem is an extremely good uploading library that can be used for upload fil
 
 ## AWS S3
 
+All fields are required.
+
 | Config Name | Example | Required | Description |
 | --- | --- | --- | --- |
 | key | s3 | true | Your client key to AWS |
