@@ -7,6 +7,15 @@ sidebar_label: "Overview"
 ---
 Data export is an important feature for many applications. It is also a source of technical debt and minor outages for many technical teams. To solve this issue, Parthenon provides a robust Export system that can handle all scales.
 
+## Configuration
+
+| Name | Example | Required | Description |
+| --- | --- | --- | --- |
+| enabled | true | no | This shows if the export module is enabled |
+| engine | direct_download | no | To configure which export engine is enabled |
+
+
+
 ## Export Engines
 
 ### Direct Download
