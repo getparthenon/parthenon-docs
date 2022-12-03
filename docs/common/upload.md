@@ -46,6 +46,9 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 interface UploaderInterface
 {
+
+    public function uploadString(string $filename, string $contents): File;
+
     public function uploadUploadedFile(UploadedFile $file): File;
 
     public function deleteFile(File $file): void;
@@ -58,6 +61,10 @@ interface UploaderInterface
 ```
 
 You need to implement three methods, Upload that accepts a Symfony `UploadedFile`, a delete, and a read both of which accept the Parthenon `File` object.
+
+### uploadString
+
+This accepts a string for the filename and a string for the contents instance of `File`
 
 ### uploadUploadedFile
 
@@ -97,8 +104,6 @@ interface NamingStrategyInterface
 Flysystem is an extremely good uploading library that can be used for upload files to multiple systems. There is a wrapper for his library to allow use while also allowing for potential competitors in the future to be usable.
 
 ## AWS S3
-
-All fields are required.
 
 | Config Name | Example | Required | Description |
 | --- | --- | --- | --- |
