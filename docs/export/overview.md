@@ -13,7 +13,7 @@ Data export is an important feature for many applications. It is also a source o
 | --- | --- | --- | --- |
 | `enabled` | `true` | no | This shows if the export module is enabled |
 | `default_engine` | direct_download | no | To configure which export engine is linked to `Parthenon\Export\Engine\EngineInterface`. Options: `direct_download`, `background_download`, `background_email` |
-| `user_provider` |  | no | The service id for the user provider |
+| `user_provider` |  | no | The service id for the user provider, used by the background email engine. |
 
 
 ## Export Engines
