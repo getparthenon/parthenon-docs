@@ -6,6 +6,33 @@ draft: false
 ---
 There are many use cases for wanting to export data from Athena.
 
+## Defining the data to be exported
+
+To define the export data you need to define a `Normaliser`. A normaliser is what converts the entity raw data to the data that is to be returned in the export file.
+
+```php
+<?php
+
+namespace App\Athena;
+
+use Parthenon\Athena\AbstractSection;
+use Parthenon\Athena\Settings;
+
+class DemoSection extends AbstractSection
+{
+
+    public function buildNormalsier(NormaliserBuilderInterface $builder): NormaliserBuilderInterface
+    {
+        $builder->addField('id', 'id')
+            ->addField('name', 'customer_name');
+            ->addField('jsonArray', 'extra_data', function ($value) { return json_encode($value); });
+
+
+        return $builder;
+    }
+}
+```
+
 ## Enabling in Settings
 
 In the Section class there is a method `getSettings` which is overridable to define what parts of Athena are enabled.
