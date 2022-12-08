@@ -10,3 +10,5 @@ If you've got logging enabled you may want non-technical people to be able to fi
 | --- | --- | --- | --- |
 | INFO | Starting a direct download export | When an export request starts being processed and the engine being used is DirectDownload. | n/a |
 | INFO | Finishing a direct download export | When an export request finishes being processed and the engine being used is DirectDownload. | n/a |
+| INFO | Queuing a background email export | When an export request is started and the engine being used is BackgroundEmailEngine | n/a |
+| INFO | Queuing a background download export | When an export request is started and the engine being used is BackgroundDownloadEngine | n/a |
