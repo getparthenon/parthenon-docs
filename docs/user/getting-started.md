@@ -16,7 +16,7 @@ There are some configurations for the user module of Parthenon. These can be con
 | teams_enabled | Boolean | Defines if teams are enabled. If they are a team is created upon a new user sign up. | false |
 | login_path | String | The path where users should be redirected to when they log in. | app_user_profile |
 | signup_success_path | String | The path where users should be redirected to when they sign up. | app_user_signed_up |
-| confirm_email | boolean | If users are required to confirm their email before using the system | false |
+| email_confirmation | boolean | If users are required to confirm their email before using the system | false |
 | gdpr.exporter.formatter_type | string | This is the name of the exporter formatter to be used. | json |
 | teams_invites_enabled | boolean | If there can be team invites used | false |
 | user_invites_enabled | boolean | If there can be normal user invites used | false |
