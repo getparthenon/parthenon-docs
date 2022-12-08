@@ -33,3 +33,18 @@ There are cases where you will want to just send the export to someone via email
 ### Create Your Own
 
 To create your own export engine, you need to create a class that implements `Partheon\Export\Engine\EngineInterface`.
+
+## Exporters
+
+Exporters implement the `Parthenon\Export\Exporter\ExporterInterface` interface. All services that implement this interface are tagged by the compiler pass and then added to the `ExporterManager`.
+
+This means you can easy add your own Exporter and have it working within the export system without a lot of hassle of configuring things. Just create a class and register a service. The second requirement only exists if you're not using autowiring in your app.
+
+### Built-in Exporters
+
+Parthenon comes with export formats supported by default.
+
+These are:
+
+* Comma Separated Values aka `csv`
+* Excel spreedsheets aka `xlsx`
