@@ -48,3 +48,9 @@ These are:
 
 * Comma Separated Values aka `csv`
 * Excel spreedsheets aka `xlsx`
+
+## Normalisers
+
+Converting the data from how it is internally to what is required for an export file is done in what is called Normalisers.
+
+To create your own Normaliser you need to create a class that implements the `Parthenon\Export\Normaliser\NormaliserInterface`. All services implementing the `NormaliserInterface` will be tagged and collected and added to the `NormaliserManager`.
