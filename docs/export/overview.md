@@ -32,4 +32,4 @@ There are cases where you will want to just send the export to someone via email
 
 ### Create Your Own
 
-To create your own export engine, you need to create a class that implements `Partheon\Export\Engine\EnginerInterface`.
+To create your own export engine, you need to create a class that implements `Partheon\Export\Engine\EngineInterface`.
