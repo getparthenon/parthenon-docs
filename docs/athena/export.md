@@ -33,6 +33,12 @@ class DemoSection extends AbstractSection
 }
 ```
 
+:::note
+
+By default the normaliser will return all the data in the entity.
+
+:::
+
 ## Enabling in Settings
 
 In the Section class there is a method `getSettings` which is overridable to define what parts of Athena are enabled.
