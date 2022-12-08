@@ -13,6 +13,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Common] Add readFile and deleteFile to UploaderInterface
 * [Export] Create export module
 * [Notification] Add TemplateEmail class to allow defining template name within the class
+* [User] Make email confirmation for users tooglable
 
 # v2.0.1 - 04-10-2022
 
