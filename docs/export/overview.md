@@ -31,6 +31,8 @@ Fields:
 
 ## Export Engines
 
+You can include the export engines either by injecting `Parthenon\Export\Engine\EngineInterface` which is an alias to the engine defined in the configuration. Or by injecting the specific export engine you want to use.
+
 ### Direct Download
 
 For simple and small exports providing an export straight away within the original request is the best way to go.
