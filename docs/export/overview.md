@@ -35,13 +35,19 @@ Fields:
 
 For simple and small exports providing an export straight away within the original request is the best way to go.
 
+**Service Id:** `Parthenon\Export\Engine\DirectDownloadEngine`
+
 ### Background Download
 
 For large exports you want to generate the export in the background and only allow the user to download it once it's been generated.
 
+**Service Id:** `Parthenon\Export\Engine\BackgroundDownloadEngine`
+
 ### Background Email
 
 There are cases where you will want to just send the export to someone via email.
+
+**Service Id:** `Parthenon\Export\Engine\BackgroundEmailEngine`
 
 ### Create Your Own
 
