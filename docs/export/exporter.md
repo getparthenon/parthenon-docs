@@ -2,6 +2,7 @@
 title: "Exporter"
 date: 2020-09-26T20:29:24+02:00
 draft: false
+sidebar_position: 2
 ---
 The ability to export data is a common task. To make this easier Parthenon comes with Exporter classes.
 
