@@ -81,6 +81,50 @@ To create your own Normaliser you need to create a class that implements the `Pa
 
 ## DataProvider
 
+For any export you'll need to define a data provider. In order to fully work while sending requests to be processed in the background, the data provider must be a registered as a service.
 
+```php
+<?php
 
-## ResponseFactory
+namespace Parthenon\Export\DataProvider;
+
+use Parthenon\Export\Exception\DataProviderFailureException;
+use Parthenon\Export\Exception\InvalidDataProviderParameterException;
+use Parthenon\Export\ExportRequest;
+
+interface DataProviderInterface
+{
+    /**
+     * @throws InvalidDataProviderParameterException
+     * @throws DataProviderFailureException
+     */
+    public function getData(ExportRequest $exportRequest): iterable;
+}
+```
+
+## ResponseConverter
+
+An easy way to allow for multiple export engines to be used within the same application and be toogable the response converter is where you can encapsulate the logic.
+
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace Parthenon\Export\Response;
+
+use Parthenon\Export\Exception\UnsupportedResponseTypeException;
+use Parthenon\Export\ExportResponseInterface;
+use Symfony\Component\HttpFoundation\Response;
+
+interface ResponseConverterInterface
+{
+    /**
+     * @throws UnsupportedResponseTypeException
+     */
+    public function convert(ExportResponseInterface $exportResponse): Response;
+}
+
+```
+
+This is optional.
