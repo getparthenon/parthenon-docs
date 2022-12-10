@@ -15,6 +15,19 @@ Data export is an important feature for many applications. It is also a source o
 | `default_engine` | direct_download | no | To configure which export engine is linked to `Parthenon\Export\Engine\EngineInterface`. Options: `direct_download`, `background_download`, `background_email` |
 | `user_provider` |  | no | The service id for the user provider, used by the background email engine. |
 
+## Export Request
+
+The class `Parthenon\Export\ExportRequest`.
+
+Fields:
+
+| Name | Type | Description |
+| --- | --- | --- |
+| `name` | `string` | The name for export |
+| `exportFormat` | `string` | The format for the export. This is used to find the correct `Exporter`. This should match the value from `ExporterInterface::getFormat`. |
+| `dataProviderService` | `string` | The service id for the data provider. |
+| `dataProviderParameters` | `array` | The parameters to be passed to the data provider |
+
 
 ## Export Engines
 
@@ -54,3 +67,9 @@ These are:
 Converting the data from how it is internally to what is required for an export file is done in what is called Normalisers.
 
 To create your own Normaliser you need to create a class that implements the `Parthenon\Export\Normaliser\NormaliserInterface`. All services implementing the `NormaliserInterface` will be tagged and collected and added to the `NormaliserManager`.
+
+## DataProvider
+
+
+
+## ResponseFactory
