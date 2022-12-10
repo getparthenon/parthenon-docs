@@ -128,3 +128,32 @@ interface ResponseConverterInterface
 ```
 
 This is optional.
+
+## Example Usage
+
+Here is an example usage.
+
+```php
+namespace Parthenon\Athena\Crud;
+
+use Parthenon\Athena\Export\DefaultDataProvider;
+use Parthenon\Export\Engine\EngineInterface;
+use Parthenon\Export\Exporter\ExporterManagerInterface;
+use Parthenon\Export\Exporter\ExporterManagerInterface;
+use Parthenon\Export\Response\ResponseConverterInterface;
+
+class CrudController
+{
+    public function export(Request $request, EngineInterface $engine, ResponseConverterInterface $responseConverter)
+    {
+        $exportName = $request->get("name");
+        $exportFormat = $request->get("format");
+
+        $exportRequest = new ExportRequest($exportName, $exportFormat, DefaultDataProvider::class, $parameters);
+
+        $response = $engine->process($exportRequest);
+
+        return $responseConverter->convert($response);
+    }
+}
+```
