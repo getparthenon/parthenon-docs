@@ -38,18 +38,21 @@ You can include the export engines either by injecting `Parthenon\Export\Engine\
 For simple and small exports providing an export straight away within the original request is the best way to go.
 
 **Service Id:** `Parthenon\Export\Engine\DirectDownloadEngine`
+**Configuration Name:** `direct_download`
 
 ### Background Download
 
 For large exports you want to generate the export in the background and only allow the user to download it once it's been generated.
 
 **Service Id:** `Parthenon\Export\Engine\BackgroundDownloadEngine`
+**Configuration Name:** `background_download`
 
 ### Background Email
 
 There are cases where you will want to just send the export to someone via email.
 
 **Service Id:** `Parthenon\Export\Engine\BackgroundEmailEngine`
+**Configuration Name:** `background_email`
 
 ### Create Your Own
 
