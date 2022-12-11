@@ -6,13 +6,11 @@ sidebar_label: "Overview"
 ---
 The Multi-Tenancy feature provides support for a multi-tenancy system where each tenant has their own database.
 
-
 :::note
 
 Multi-Tenancy in a single database is supported by default.
 
 :::
-
 
 ### Configuration
 

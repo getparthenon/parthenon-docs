@@ -10,7 +10,7 @@ To upload files there is the UploaderInterface. The UploaderInterface just retur
 
 | Config Name | Example | Required | Description |
 | --- | --- | --- | --- |
-| provider | s3 | true | The mailing service to be used. Options are: null, sendgrid, mailgun, postmark |
+| provider | s3 | true | The mailing service to be used. Options are: null, s3, local |
 | naming_strategy | random_time | true | |
 | s3 | n/a | false | The S3 options as defined in the [AWS S3](#aws_s3) section below. |
 | local | n/a | false | The local options as defined in the [local](#local) section below. |
