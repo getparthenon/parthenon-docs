@@ -6,14 +6,14 @@ sidebar_position: 98
 ---
 Here you'll be able to see the updates to Parthenon. This page started to be maintained on 21.04.2022.
 
-# v2.1.0 - DD-MM-202Y
+# v2.1.0 - 16-12-2022
 
 * [AB Testing] Fix column names for updated at in Experiment
 * [Athena] Add export functionality
 * [Common] Add readFile and deleteFile to UploaderInterface
 * [Export] Create export module
 * [Notification] Add TemplateEmail class to allow defining template name within the class
-* [User] Make email confirmation for users tooglable
+* [User] Make email confirmation for users togglable
 
 # v2.0.1 - 04-10-2022
 
