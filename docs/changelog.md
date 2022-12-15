@@ -6,6 +6,10 @@ sidebar_position: 98
 ---
 Here you'll be able to see the updates to Parthenon. This page started to be maintained on 21.04.2022.
 
+# v2.2.0 - DD-MM-2023
+
+
+
 # v2.1.0 - 16-12-2022
 
 * [AB Testing] Fix column names for updated at in Experiment

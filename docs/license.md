@@ -13,12 +13,12 @@ The license is as follows
 Parameters
 
 Licensor:             Iain Cambridge
-Licensed Work:        Parthenon 2.0.x
+Licensed Work:        Parthenon 2.1.x
                       The Licensed Work is (c) 2022 Iain Cambridge.
 Additional Use Grant:
     You may use the Licensed Work when you generate less than $5,000 (five thousand) US Dollars a month.
 
-Change Date:          TBD ( 3 years after 2.0.0 release )
+Change Date:          TBD ( 3 years after 2.1.0 release )
 
 Change License:       GPL Version 3.0
 
