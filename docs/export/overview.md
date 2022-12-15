@@ -133,6 +133,8 @@ This is optional.
 
 Here is an example usage.
 
+### Example Controller
+
 ```php
 namespace Parthenon\Athena\Crud;
 
@@ -154,6 +156,29 @@ class CrudController
         $response = $engine->process($exportRequest);
 
         return $responseConverter->convert($response);
+    }
+}
+```
+
+### DataProvider Example
+
+```php
+<?php
+
+namespace App\Export;
+
+use Parthenon\Export\DataProvider\DataProviderInterface;
+
+class DemoDataProvider extends DataProviderInterface
+{
+    public function __construct(
+        private DemoDataRepositoryInterface $repository,
+    ) {
+    }
+
+    public function getData(ExportRequest $exportRequest): iterable
+    {
+        return $this->repository->findAll();
     }
 }
 ```
