@@ -11,3 +11,5 @@ sidebar_position: 2
 | **Create Customer Profile** | Yes | Yes | Yes | ?? | Yes | No |
 | **One off Payments** | Yes | Yes | Yes | Yes | Yes | Yes | Yes? |
 | **Hosted Checkout** | Yes |  No | Yes | Yes | Yes | Yes |
+| **Self-Hosted Checkout** | Yes |  Yes | No | No | Yes | Yes |
+| **Subscription** | Yes |  Yes | Yes | Yes | Yes | Yes |
