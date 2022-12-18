@@ -18,3 +18,7 @@ The reason Models aren't final classes is that they should be extendable to add 
 ## Not to use offical SDKs
 
 In an attempt to make the library easier to extend, more lightweight, and consistent the idea is to not use offical SDKs and to make the API requests via PSR7 clients.
+
+## Validation
+
+There wasn't a validation library used to keep the library lightweight. It's also possible to add one in later without breaking BC. So it's possible to change this decsison later.
