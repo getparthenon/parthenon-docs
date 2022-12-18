@@ -14,3 +14,7 @@ I decided to make this a standalone library so that it could be used by itself. 
 ## Models aren't final
 
 The reason Models aren't final classes is that they should be extendable to add extra fields if needed. If extra fields are added custom data mappers would also be required.
+
+## Not to use offical SDKs
+
+In an attempt to make the library easier to extend, more lightweight, and consistent the idea is to not use offical SDKs and to make the API requests via PSR7 clients.
