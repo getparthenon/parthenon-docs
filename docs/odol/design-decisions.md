@@ -22,3 +22,7 @@ In an attempt to make the library easier to extend, more lightweight, and consis
 ## Validation
 
 There wasn't a validation library used to keep the library lightweight. It's also possible to add one in later without breaking BC. So it's possible to change this decsison later.
+
+## Throw exceptions for request failures
+
+The idea is that if Obol throws exceptions for request failures but specific failures such as InvalidFieldsRequestException and BadAuthRequestException then it can make it easier to figure out and handle how to deal with each one. Whereas, if it was in the response model it would be harder.
