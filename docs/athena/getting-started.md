@@ -33,17 +33,6 @@ parthenon_athena_controllers:
   type: annotation
 ```
 
-## Add route loading tag to service
-
-TODO Remove need for launch.
-
-```YAML
-
-    Parthenon\Athena\Routing\AthenaRouteLoader:
-        tags: [routing.loader]
-
-```
-
 ## First Section
 
 The fastest way to get started with a section is to just extend the `AbstractSection` class. Once you've extended the `AbstractSection` class you just need to define `getEntity`, `getMenuName`, `getUrlTag` and you can get going. And other methods are overridable if you want.
