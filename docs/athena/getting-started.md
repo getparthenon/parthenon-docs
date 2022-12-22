@@ -16,6 +16,12 @@ To get started using the Athena system you need to do a few code/config changes.
 | login_logo | /new_logo.png | null | The logo to be displayed on the Athena login page |
 | dashboard_logo | /dashboard_logo.png | null | The logo to be displayed in the Athena dashboard |
 
+```YAML
+parthenon:
+  athena:
+    enable: true
+```
+
 ## Add to routes.yml
 
 The routes.yml needs to be modified so that the athena route loader is loaded and can automatically generate the routes based off the code. The Athena routes configuration **MUST** be first if you wish to use the separate domains.
@@ -29,8 +35,9 @@ _app_athena:
 And in the annotations.yml file:  
   ```YAML
 parthenon_athena_controllers:
-  resource: ../../src/Parthenon/Athena/Controller/
-  type: annotation
+      prefix: /
+      resource: ../vendor/parthenon/parthenon/src/Athena/Controller/
+      type: annotation
 ```
 
 ## First Section
