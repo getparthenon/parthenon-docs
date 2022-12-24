@@ -40,6 +40,8 @@ parthenon_athena_controllers:
       type: annotation
 ```
 
+When Athena is enabled but doesn't have a special host the routes are available at `/athena`.
+
 ## First Section
 
 The fastest way to get started with a section is to just extend the `AbstractSection` class. Once you've extended the `AbstractSection` class you just need to define `getEntity`, `getMenuName`, `getUrlTag` and you can get going. And other methods are overridable if you want.
