@@ -12,5 +12,4 @@ This process was started quite late so currently lots of areas' design decisions
 * [Common](./common/design-decisions/general.md)
 * [Common Repository](./common/design-decisions/repositories.md)
 * [Export](./export/design-decisions.md)
-* [Obol](./obol/design-decisions.md)
 * [User](./user/design-decisions.md)
