@@ -11,6 +11,7 @@ parameters
 | name | required | type | description |
 | ---     |  ---   |  ---  |  ---  |
 | api_key | yes | string | The private API key for Stripe |
+| pci_mode | no | boolean | If your implementation has a PCI security check and can collect card information. Otherwise stripe.js tokens must be used. Default is false. |
 | success_url | no | string | The success url for hosted checkout. It is required if you're using hosted checkout. |
-| pci_mode | no | boolean | If your implementation has a PCI security check and can collect card information. Otherwise stripe.js tokens must be used |
 | cancel_url | no | string | the cancel url for the hosted checkout. It is required if you're using hosted checkout . |
+| payment_methods | no | array | The payment types to be used for hosted checkout. Default is card. |
