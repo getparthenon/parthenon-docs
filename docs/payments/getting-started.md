@@ -4,6 +4,10 @@ date: 2020-08-25T18:51:52+02:00
 draft: false
 sidebar_label: "Getting Started"
 ---
+::: note
+In 2.2 this has been deprecated for the Billing system.
+:::
+
 To get started using the Payment System.
 
 Steps:

@@ -4,6 +4,10 @@ date: 2020-08-25T18:51:52+02:00
 draft: false
 sidebar_label: "Parameters"
 ---
+::: note
+In 2.2 this has been deprecated for the Billing system.
+:::
+
 The parameters that are set in the container for the Parthenon payment module are as follows.
 
 | parameter_name | description |

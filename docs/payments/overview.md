@@ -4,6 +4,10 @@ date: 2020-08-25T18:51:52+02:00
 draft: false
 sidebar_label: "Overview"
 ---
+::: note
+In 2.2 this has been deprecated for the Billing system.
+:::
+
 Parthenon comes with a Payment system that currently supports Stripe.
 
 ## Setup
