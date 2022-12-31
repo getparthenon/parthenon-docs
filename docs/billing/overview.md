@@ -5,7 +5,7 @@ date: 2020-09-04T17:30:32+02:00
 draft: false
 sidebar_position: 1
 ---
-The billing system is how you're able to bill customers.
+The billing system is how you're able to bill customers. The goal of the billing system is to make it easy for companies to have professional level billing that is flexible and extendable.
 
 ## Setup
 
