@@ -7,6 +7,18 @@ sidebar_position: 1
 ---
 The billing system is how you're able to bill customers.
 
+## Setup
+
+1. Add target entity alias
+
+```YAML
+doctrine:
+  // ...
+    orm:
+      resolve_target_entities:
+        Parthenon\Billing\Entity\CustomerInterface: App\Entity\Team
+```
+
 ## Payment Configs
 
 | Name | Type | Description |
