@@ -31,7 +31,7 @@ The billing system is how you're able to bill customers.
 
 | Name | Type | Description |
 | --- | --- | --- |
-| private_api_key | string | The private  API key |
+| private_api_key | string | The private API key |
 | public_api_key | string | The public API key |
 | payment_methods | array | The payment methods to be used for Stripe hosted checkout |
 
