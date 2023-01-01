@@ -19,6 +19,15 @@ doctrine:
         Parthenon\Billing\Entity\CustomerInterface: App\Entity\Team
 ```
 
+2. Add Routes
+
+```yaml
+parthenon_billing_controllers:
+    prefix: /api
+    resource: ../../src/Parthenon/Billing/Controller/
+    type: annotation
+```    
+
 ## Payment Configs
 
 | Name | Type | Description |
