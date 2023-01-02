@@ -8,7 +8,9 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 
 # v2.2.0 - DD-MM-2023
 
-
+* [Billing] Add module with Plan functionality
+* [Billing] Add billing address
+* [Payments] Deprecated entire module
 
 # v2.1.0 - 16-12-2022
 
