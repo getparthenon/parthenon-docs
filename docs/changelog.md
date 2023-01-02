@@ -12,6 +12,8 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Athena] Only load doctrine mappings when enabled
 * [Billing] Add module with Plan functionality
 * [Billing] Add billing address
+* [Export] Only load doctrine mappings when enabled
+* [MultiTenancy] Only load doctrine mappings when enabled
 * [Payments] Deprecated entire module
 * [Payments] Only load doctrine mappings when enabled
 * [User] Only load doctrine mappings when enabled
