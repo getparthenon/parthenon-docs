@@ -13,6 +13,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Billing] Add module with Plan functionality
 * [Billing] Add billing address
 * [Payments] Deprecated entire module
+* [User] Only load doctrine mappings when enabled
 
 # v2.1.0 - 16-12-2022
 
