@@ -30,7 +30,7 @@ sidebar_position: 2
 
 ## Get card collection token for client side collection
 
-**Endpoint** `/billing/card/token/start`
+**Endpoint** `/billing/card/token/start`<br />
 **Token** `GET`
 **Providers** `Adyen`, `Stripe`
 
