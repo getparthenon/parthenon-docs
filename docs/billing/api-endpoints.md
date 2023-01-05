@@ -6,12 +6,12 @@ draft: false
 sidebar_position: 2
 ---
 
-# Fetch Payment details
+## Fetch Payment details
 
 **Endpoint** `/billing/payment-details`
 **Method** `GET`
 
-## Response
+### Response
 
 ```json
 {
@@ -28,12 +28,13 @@ sidebar_position: 2
 }
 ```
 
-# Get card collection token for client side collection
+## Get card collection token for client side collection
 
 **Endpoint** `/billing/card/token/start`
 **Token** `GET`
 **Providers** `Adyen`, `Stripe`
 
+### Response
 ```json
 {
   "token": "token-here",
@@ -41,12 +42,13 @@ sidebar_position: 2
 }
 ```
 
-# Add card by token
+## Add card by token
 
 **Endpoint** `/billing/card/token/add`
 **Method** `POST`
 **Providers** `Stripe`
 
+### Response
 ```json
 {
     "token": "token-we-got-from-the-payment-provider"
