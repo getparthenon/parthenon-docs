@@ -48,9 +48,26 @@ sidebar_position: 2
 **Method** `POST`<br />
 **Providers** `Stripe`<br />
 
-### Response
+### Request
 ```json
 {
     "token": "token-we-got-from-the-payment-provider"
+}
+```
+
+### Response
+```json
+{
+  "success": true,
+	"payment_details": {
+		"id": "18756274-8a10-4c0a-ac01-663fcb911f74",
+		"defaultPaymentOption": false,
+		"brand": "Visa",
+		"lastFour": "4242",
+		"expiryMonth": "4",
+		"expiryYear": "2023",
+		"createdAt": "2023-01-05T11:08:27+00:00",
+		"deleted": false
+	}
 }
 ```
