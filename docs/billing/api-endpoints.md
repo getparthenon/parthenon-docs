@@ -27,3 +27,15 @@ sidebar_position: 2
 	}]
 }
 ```
+
+# Get card collection token for client side collection
+
+**Endpoint** `/billing/card/token/start`
+**Token** `GET`
+
+```json
+{
+  "token": "token-here",
+  "api_info": "api info here"
+}
+```
