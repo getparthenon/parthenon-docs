@@ -8,8 +8,8 @@ sidebar_position: 2
 
 ## Fetch Payment details
 
-**Endpoint** `/billing/payment-details`
-**Method** `GET`
+**Endpoint** `/billing/payment-details`<br />
+**Method** `GET`<br />
 
 ### Response
 
@@ -31,8 +31,8 @@ sidebar_position: 2
 ## Get card collection token for client side collection
 
 **Endpoint** `/billing/card/token/start`<br />
-**Token** `GET`
-**Providers** `Adyen`, `Stripe`
+**Token** `GET`<br />
+**Providers** `Adyen`, `Stripe`<br />
 
 ### Response
 ```json
@@ -44,9 +44,9 @@ sidebar_position: 2
 
 ## Add card by token
 
-**Endpoint** `/billing/card/token/add`
-**Method** `POST`
-**Providers** `Stripe`
+**Endpoint** `/billing/card/token/add`<br />
+**Method** `POST`<br />
+**Providers** `Stripe`<br />
 
 ### Response
 ```json
