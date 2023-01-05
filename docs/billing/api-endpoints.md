@@ -32,10 +32,23 @@ sidebar_position: 2
 
 **Endpoint** `/billing/card/token/start`
 **Token** `GET`
+**Providers** `Adyen`, `Stripe`
 
 ```json
 {
   "token": "token-here",
   "api_info": "api info here"
+}
+```
+
+# Add card by token
+
+**Endpoint** `/billing/card/token/add`
+**Method** `POST`
+**Providers** `Stripe`
+
+```json
+{
+    "token": "token-we-got-from-the-payment-provider"
 }
 ```
