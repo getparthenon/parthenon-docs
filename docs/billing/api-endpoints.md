@@ -8,8 +8,8 @@ sidebar_position: 2
 
 # Fetch Payment details
 
-*Endpoint* `/billing/payment-details`
-*Method* `GET`
+**Endpoint** `/billing/payment-details`
+**Method** `GET`
 
 ## Response
 
