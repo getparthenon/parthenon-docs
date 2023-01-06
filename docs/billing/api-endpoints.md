@@ -148,3 +148,28 @@ Body
   "success": true
 }
 ```
+
+## Delete Payment Method
+
+**Endpoint** `/billing/card/{id}`<br />
+**Method** `DELETE`<br />
+
+#### Error
+
+**Status Code** `404`
+
+```json
+{
+  "success": false
+}
+```
+
+#### Success
+
+**Status Code** `202`
+
+```json
+{
+  "success": true
+}
+```
