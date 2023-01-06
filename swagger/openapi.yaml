@@ -1,0 +1,13 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Parthenon
+  description: The apis available when using Parthenon.
+  license:
+    name: BUSL-1.1
+paths:
+  /billing/payment-methods:
+    $ref: "./paths/billing/fetch_payment_methods.yaml"
+components:
+  schemas:
+    $ref: "./schemas/_index.yaml"

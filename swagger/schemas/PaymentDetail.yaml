@@ -1,0 +1,21 @@
+type: Object
+properties:
+  id:
+    type: string
+    format: uuid
+    example: '2d5cc543-6b67-4bc2-a6aa-4e76267a2064'
+  default:
+    type: boolean  
+    example: true
+  last_four:
+    type: string
+    example: '4431'
+  expiry_month:
+    type: string
+    example: '02'
+  expiry_year:
+    type: string
+    example: '31'
+  created_at:
+    type: string
+    format: date-time

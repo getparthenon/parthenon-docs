@@ -1,0 +1,12 @@
+paths:
+  /billing/payment-methods:
+    get:
+      summary: Fetch payments methods for the authenticated 
+      responses:
+        '200':
+          description: 
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '../../schemas/PaymentDetail.yaml'  

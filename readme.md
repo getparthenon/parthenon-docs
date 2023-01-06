@@ -11,4 +11,5 @@ You can find the published documentation on https://getparthenon.com
 ```
 -> docs/ - The documentation for the next minor update
 -> version_docs/ The documentation for different version_docs
+-> swagger/ The swagger for the API endpoints
 ```
