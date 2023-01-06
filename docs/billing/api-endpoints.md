@@ -13,17 +13,18 @@ sidebar_position: 2
 
 ### Response
 
+**Status Code** `200`
+
 ```json
 {
 	"payment_details": [{
 		"id": "18756274-8a10-4c0a-ac01-663fcb911f74",
-		"defaultPaymentOption": false,
+		"default": false,
 		"brand": "Visa",
-		"lastFour": "4242",
-		"expiryMonth": "4",
-		"expiryYear": "2023",
-		"createdAt": "2023-01-05T11:08:27+00:00",
-		"deleted": false
+		"last_four": "4242",
+		"expiry_month": "4",
+		"expiry_year": "2023",
+		"created_at": "2023-01-05T11:08:27+00:00"
 	}]
 }
 ```
@@ -35,6 +36,9 @@ sidebar_position: 2
 **Providers** `Adyen`, `Stripe`<br />
 
 ### Response
+
+**Status Code** `200`
+
 ```json
 {
   "token": "token-here",
@@ -57,7 +61,7 @@ sidebar_position: 2
 
 ### Response
 
-Status code **202**
+**Status Code** `202`
 
 Body
 
@@ -66,13 +70,12 @@ Body
   "success": true,
 	"payment_details": {
 		"id": "18756274-8a10-4c0a-ac01-663fcb911f74",
-		"defaultPaymentOption": false,
+		"default": false,
 		"brand": "Visa",
-		"lastFour": "4242",
-		"expiryMonth": "4",
-		"expiryYear": "2023",
-		"createdAt": "2023-01-05T11:08:27+00:00",
-		"deleted": false
+		"last_four": "4242",
+		"expiry_month": "4",
+		"expiry_year": "2023",
+		"created_at": "2023-01-05T11:08:27+00:00"
 	}
 }
 ```
