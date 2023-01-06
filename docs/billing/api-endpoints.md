@@ -76,3 +76,62 @@ Body
 	}
 }
 ```
+
+## Fetch billing details
+
+**Endpoint** `/billing/details`<br />
+**Method** `GET`<br />
+
+### Response
+
+**Status Code** `200`
+
+```json
+{
+	"address": {
+		"company_name": null,
+		"street_line_one": "Test",
+		"street_line_two": null,
+		"city": "test",
+		"region": null,
+		"country": "",
+		"post_code": null
+	}
+}
+```
+
+## Update billing details
+
+**Endpoint** `/billing/details`<br />
+**Method** `POST`<br />
+
+**Body**
+```json
+{
+		"company_name": null,
+		"street_line_one": "Test",
+		"street_line_two": null,
+		"city": "test",
+		"region": null,
+		"country": "",
+		"post_code": null
+}
+```
+
+### Response
+
+#### Error
+
+**Status Code** `400`
+
+```json
+{
+  "success": false,
+  "errors": {
+    "country": [
+      "error message one",
+      "error message two"
+    ]
+  }
+}
+```
