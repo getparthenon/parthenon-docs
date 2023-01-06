@@ -135,3 +135,13 @@ Body
   }
 }
 ```
+
+#### Success
+
+**Status Code** `202`
+
+```json
+{
+  "success": true
+}
+```
