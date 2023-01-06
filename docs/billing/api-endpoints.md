@@ -56,6 +56,11 @@ sidebar_position: 2
 ```
 
 ### Response
+
+Status code **202**
+
+Body
+
 ```json
 {
   "success": true,
