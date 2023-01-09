@@ -173,13 +173,13 @@ class Demo implements \Parthenon\Athena\Entity\DeletableInterface
 
       public function markAsDeleted(): self {
           $this->deleted = true;
-          $this->deltedAt = new \DateTime('now');
+          $this->deletedAt = new \DateTime('now');
           return $this;
       }
 
       public function unmarkAsDeleted(): self {
           $this->deleted = true;
-          $this->deltedAt = null;
+          $this->deletedAt = null;
 
           return $this;
       }
