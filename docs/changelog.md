@@ -10,6 +10,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 
 * [AB Testing] Only load doctrine mappings when enabled
 * [Athena] Only load doctrine mappings when enabled
+* [Athena] Add entity view type
 * [Billing] Add module with Plan functionality
 * [Billing] Add billing address
 * [Export] Only load doctrine mappings when enabled
