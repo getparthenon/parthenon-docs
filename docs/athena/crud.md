@@ -195,6 +195,11 @@ class Demo implements \Parthenon\Athena\Entity\DeletableInterface
 | name | string | The name of the field, it must correspond with the entity field otherwise an exception will be thrown. The name **MUST** be in snake case even if the entity has it in camel case. | email |
 | type | string | The filter type to be used when filtering. This has to be the name of the filter type that is registered. Otherwise, an exception will be thrown. | contains |
 
+
+:::note
+name's of embedded associations must start with a fullstop. Example `.billingAddress.email` will be for an embedded association while `billingAddress.email` is for associations to entities.
+:::
+
 ### Example Code
 
 ```php
