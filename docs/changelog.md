@@ -12,6 +12,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Athena] Only load doctrine mappings when enabled
 * [Athena] Add entity view type
 * [Athena] Fix bug in ResultSet getLastKey when no results
+* [Athena] Add workaround for embedded fields in filter querybuilder
 * [Billing] Add module with Plan functionality
 * [Billing] Add billing address
 * [Export] Only load doctrine mappings when enabled
