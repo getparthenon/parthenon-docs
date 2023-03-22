@@ -16,6 +16,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Athena] Add first key to CrudRepository
 * [Athena] Add collection form type support
 * [Billing] Add module with Plan functionality
+* [Billing] Add ability to define Plans from Athena
 * [Billing] Add billing address
 * [Export] Only load doctrine mappings when enabled
 * [MultiTenancy] Only load doctrine mappings when enabled
