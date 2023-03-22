@@ -14,6 +14,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Athena] Fix bug in ResultSet getLastKey when no results
 * [Athena] Add workaround for embedded fields in filter querybuilder
 * [Athena] Add first key to CrudRepository
+* [Athena] Add collection form type support
 * [Billing] Add module with Plan functionality
 * [Billing] Add billing address
 * [Export] Only load doctrine mappings when enabled
