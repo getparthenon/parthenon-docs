@@ -15,6 +15,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Athena] Add workaround for embedded fields in filter querybuilder
 * [Athena] Add first key to CrudRepository
 * [Athena] Add collection form type support
+* [Athena] Make form fields uneditable
 * [Billing] Add module with Plan functionality
 * [Billing] Add ability to define Plans from Athena
 * [Billing] Add billing address
