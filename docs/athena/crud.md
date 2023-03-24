@@ -76,6 +76,8 @@ The read page is the page that will allow employees to view the data. The view i
 | --- | --- | --- | --- | --- |
 | name | string | The name of the field, it must correspond with the entity field otherwise an exception will be thrown. The name **MUST** be in snake case even if the entity has it in camel case. | email | false |
 | type | string | The view type for the field. A valid view type with that name must exist otherwise an exception is thrown. | text | false |
+| extraOptions | array | The extra options passed to the Symfony form type | [] | false |
+| editable | bool | If the field is editable | true | false |
 
 ### Example Code
 
