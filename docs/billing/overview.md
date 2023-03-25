@@ -28,6 +28,15 @@ parthenon_billing_controllers:
     type: annotation
 ```    
 
+## Main Configs
+
+| Name | Type | Description |
+| --- | --- | --- |
+| enabled | boolean | If billing is enabled |
+| customer_type | string | `team` if teams are enabled and the team owner should be billed. Or `user` if single accounts are being used. |
+| plan_management | string | `config` if static plans from the Parthenon yaml config should be used. Or `athena` if they are to be managed in Athena. | 
+| payments | array | The payments config |
+
 ## Payment Configs
 
 | Name | Type | Description |
