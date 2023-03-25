@@ -19,6 +19,7 @@ Here you'll be able to see the updates to Parthenon. This page started to be mai
 * [Billing] Add module with Plan functionality
 * [Billing] Add ability to define Plans from Athena
 * [Billing] Add billing address
+* [Billing] Make it tooglable to use the database for plans or config
 * [Export] Only load doctrine mappings when enabled
 * [MultiTenancy] Only load doctrine mappings when enabled
 * [Payments] Deprecated entire module
